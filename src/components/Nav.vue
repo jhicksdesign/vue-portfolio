@@ -40,6 +40,7 @@
             <v-list-item
                     v-for="item in items"
                     :key="item.title"
+                    :to="item.link"
                     link
             >
                 <v-list-item-icon>
@@ -60,10 +61,10 @@
       return {
         drawer: true,
         items: [
-          { title: 'Portfolio', icon: 'mdi-view-dashboard' },
-          { title: 'Experience', icon: 'mdi-image' },
-          { title: 'Skills', icon: 'mdi-help-box' },
-          { title: 'About', icon: 'mdi-help-box' },
+          { title: 'Portfolio', icon: 'mdi-view-dashboard', link: '/' },
+          { title: 'Experience', icon: 'mdi-image', link: '/experience' },
+          { title: 'Skills', icon: 'mdi-help-box', link: '/skills' },
+          { title: 'About', icon: 'mdi-help-box', link: '/about' },
         ],
         color: 'black',
         colors: [
