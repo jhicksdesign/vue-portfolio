@@ -1,13 +1,15 @@
 <template>
     <v-navigation-drawer
+            app
             v-model="drawer"
             :color="color"
             :expand-on-hover="expandOnHover"
-            :permanent="permanent"
+            :permanent="isLarge"
             :src="bg"
             absolute
             dark
     >
+        <v-menu v-if="$vuetify.breakpoint.xsOnly"/>
         <v-list
                 dense
                 nav
@@ -73,7 +75,7 @@
           'black',
         ],
         right: false,
-        permanent: true,
+        permanent: false,
         miniVariant: false,
         expandOnHover: false,
         background: false,
@@ -83,6 +85,12 @@
       bg () {
         return this.background ? 'https://cdn.vuetifyjs.com/images/backgrounds/bg-2.jpg' : undefined
       },
+      isLarge() {
+        return this.$vuetify.breakpoint.name !== 'xs'
+      },
+      showDrawer() {
+        return this.isLarge || this.drawer
+      }
     },
   }
 </script>
