@@ -88,9 +88,6 @@
       },
       isLarge() {
         return this.$vuetify.breakpoint.name !== 'xs'
-      },
-      showDrawer() {
-        return this.isLarge || this.drawer
       }
     },
   }
