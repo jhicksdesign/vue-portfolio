@@ -6,8 +6,8 @@
             :expand-on-hover="expandOnHover"
             :permanent="isLarge"
             :src="bg"
-            absolute
             dark
+            fixed
     >
         <v-menu v-if="$vuetify.breakpoint.xsOnly"/>
         <v-list
