@@ -6,7 +6,7 @@
                 <ImageModal ref="dialog" v-if="card.images"  v-bind:images="card.images" v-bind:title="card.title"></ImageModal>
             </v-col>
             <v-col cols="8" md="6">
-                <h3>{{card.title}}</h3>
+                <h3 style="white-space: pre-line">{{card.title}}</h3>
                 <p>{{card.content}}</p>
             </v-col>
         </v-row>

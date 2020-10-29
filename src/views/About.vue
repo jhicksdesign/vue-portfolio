@@ -20,7 +20,7 @@
                     </v-col>
                     <v-col cols="12">
                         <h2>Resume</h2>
-                        <a href="../../public/lib/Resume.pdf" target="_blank">Resume</a>
+                        <a href="/static/Resume.pdf" target="_blank">Resume</a>
                     </v-col>
                 </v-row>
 

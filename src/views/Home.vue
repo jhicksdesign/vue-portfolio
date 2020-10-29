@@ -17,7 +17,7 @@ export default {
       projects: [
         {
           title: "ConcertCrawl",
-          content: "Website designed as capstone project for Deep Dive Coding full stack bootcamp, was a culmination of all the technologies learned during the bootcamp. Developed in a group of three, coordinated using GIT as a version control software and Asana to facilitate development in an agile fashion. Front end was designed using React and Redux. Backend was designed using node, express, and MySQL for the database. ",
+          content: "Website designed as capstone project for Deep Dive Coding full stack bootcamp, was a culmination of all the technologies learned during the bootcamp. Developed in a group of three, coordinated using GIT as a version control software and Asana to facilitate development in an agile fashion. Front end was designed using React and Redux. Backend was designed using node, express, and MySQL for the database. Hosted website on a digital ocean droplet using Docker.",
           image: "/static/concert-crawl/FooSearch.png",
           images: [
             {src: "/static/concert-crawl/FooSearch.png"},
@@ -27,7 +27,7 @@ export default {
         },
         {
           title: "Suzy S. Photography",
-          content: "Portfolio project that I created as a solo project to help a beginner photographer get more exposure. Designed using HTML/CSS and some Javascript, used bootstrap for a css framework and express was used to set up the mail form functionality.",
+          content: "Portfolio project that I created as a solo project to help a beginner photographer get more exposure. Designed using HTML/CSS and some Javascript, used bootstrap for a css framework and express was used to set up the mail form functionality. Hosted website on a digital ocean droplet using Docker.",
           image: "/static/suzy-s-photography/MainImage.jpeg",
           images: [
             {src: "/static/suzy-s-photography/MainImage.jpeg"},
