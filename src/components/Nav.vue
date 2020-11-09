@@ -62,8 +62,8 @@
         drawer: true,
         items: [
           { title: 'Portfolio', icon: 'mdi-view-dashboard', link: '/' },
-          { title: 'Experience', icon: 'mdi-image', link: '/experience' },
-          { title: 'Skills', icon: 'mdi-help-box', link: '/skills' },
+          { title: 'Experience', icon: 'mdi-book', link: '/experience' },
+          { title: 'Skills', icon: 'mdi-brain', link: '/skills' },
           { title: 'About', icon: 'mdi-help-box', link: '/about' },
         ],
         color: 'black',

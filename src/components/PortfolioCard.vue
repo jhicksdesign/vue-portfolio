@@ -1,11 +1,10 @@
 <template>
     <v-container>
-        <v-row :key="i" align-content="center" v-for="(card, i) in projects">
-            <v-col cols="0" md="3"></v-col>
-            <v-col cols="4" md="3">
+        <v-row :key="i" align-content="center" justify="center" v-for="(card, i) in projects">
+            <v-col cols="12" md="4" class="justify-center" v-if="card.images">
                 <ImageModal ref="dialog" v-if="card.images"  v-bind:images="card.images" v-bind:title="card.title"></ImageModal>
             </v-col>
-            <v-col cols="8" md="6">
+            <v-col cols="12" md="6">
                 <h3 style="white-space: pre-line">{{card.title}}</h3>
                 <p>{{card.content}}</p>
             </v-col>

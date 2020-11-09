@@ -1,17 +1,21 @@
 <template>
     <div class="text-center">
-        <div @click="dialog=true">
-            <v-img max-height="200px" max-width="200px" :src="`${images[0].src}`"/>
-        </div>
+        <v-sheet class="ma-auto" max-height="200px" max-width="200px" elevation="5" @click="dialog=true">
+            <v-img class="ma-auto" cover max-height="200px" max-width="200px" :src="`${images[0].src}`">
+                <div class="test align-center justify-center d-flex">View More</div>
+            </v-img>
+
+        </v-sheet>
         <v-dialog
                 v-model="dialog"
-                width="500"
+                width="600"
         >
             <v-card>
                 <v-card-title class="headline grey lighten-2">
                     {{title}}
                 </v-card-title>
-                <v-card-text>
+                <v-card-text
+                        class="px-0">
                     <v-carousel>
                         <v-carousel-item
                                 v-for="(image,i) in images"
@@ -19,6 +23,7 @@
                                 :src="image.src"
                                 reverse-transition="fade-transition"
                                 transition="fade-transition"
+                                contain
                         ></v-carousel-item>
                     </v-carousel>
                 </v-card-text>

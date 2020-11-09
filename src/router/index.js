@@ -4,7 +4,6 @@ import Home from '../views/Home'
 import About from '../views/About'
 import Experience from '../views/Experience'
 import Skills from '../views/Skills'
-import Resume from '../views/Resume'
 
 Vue.use(VueRouter)
 
@@ -28,11 +27,6 @@ const routes = [
     path: '/skills',
     name: 'Skills',
     component: Skills
-  },
-  {
-    path: '/resume',
-    name: 'Resume',
-    component: Resume
   },
   {
     path: '*',
