@@ -1,7 +1,7 @@
 <template>
     <v-container>
         <h1>Proficient Technical Skills</h1>
-        <v-row>
+        <v-row class="justify-center">
             <v-sheet
                     height="100"
                     width="100"

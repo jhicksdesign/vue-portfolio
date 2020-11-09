@@ -1,17 +1,18 @@
 <template>
     <div class="text-center">
-        <v-sheet class="ma-auto" max-height="200px" max-width="200px" elevation="5" @click="dialog=true">
-            <v-img class="ma-auto" cover max-height="200px" max-width="200px" :src="`${images[0].src}`">
-                <div class="test align-center justify-center d-flex">View More</div>
-            </v-img>
-
+        <v-sheet class="ma-auto test" max-height="200px" max-width="200px" elevation="5" @click="dialog=true">
+            <v-hover
+                    value>
+                <v-img class="ma-auto" cover max-height="200px" max-width="200px" :src="`${images[0].src}`">
+                </v-img>
+            </v-hover>
         </v-sheet>
         <v-dialog
                 v-model="dialog"
                 width="600"
         >
             <v-card>
-                <v-card-title class="headline grey lighten-2">
+                <v-card-title class="headline grey lighten-2 justify-center">
                     {{title}}
                 </v-card-title>
                 <v-card-text
@@ -45,5 +46,7 @@
 </script>
 
 <style scoped>
-
+    .test {
+        cursor: pointer;
+    }
 </style>

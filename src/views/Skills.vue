@@ -1,7 +1,7 @@
 <template>
     <v-container class="flex">
         <v-row align="center" justify="center" class="fill-height">
-            <v-layout class="d-flex text-center">
+            <v-layout class="d-flex text-center mx-auto">
                 <SkillCard v-bind:skills="skills"></SkillCard>
             </v-layout>
         </v-row>
@@ -22,8 +22,16 @@
             title: "React"
           },
           {
+            icon: "mdi-react",
+            title: "Redux"
+          },
+          {
             icon: "mdi-vuejs",
             title: "Vue.js"
+          },
+          {
+            icon: "mdi-vuetify",
+            title: "Vuetify"
           },
           {
             icon: "mdi-language-javascript",

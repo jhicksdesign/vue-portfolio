@@ -13,14 +13,14 @@
                         Please feel free to contact me about any and all business opportunities.</p>
                     </v-col>
                     <v-col cols="12">
+                        <h2>Resume</h2>
+                        <a href="/static/Resume.pdf" target="_blank">Resume</a>
+                    </v-col>
+                    <v-col cols="12">
                         <h2>Contact Me</h2>
                         <p><span>Phone: </span>941-323-3461</p>
                         <p><span>Email: </span>jhicks@jhicksdesign.com</p>
                         <p><span></span></p>
-                    </v-col>
-                    <v-col cols="12">
-                        <h2>Resume</h2>
-                        <a href="/static/Resume.pdf" target="_blank">Resume</a>
                     </v-col>
                 </v-row>
 
