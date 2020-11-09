@@ -46,7 +46,7 @@ export default {
           ]
         }, {
           title: "JHicks Design",
-          content: "First portfolio project I designed for myself, design using HTML/CSS with some Javascript, used bootstrap for css framework. Was a project to tie together my creative skills with my web design skills to sell myself as a developer.",
+          content: "First portfolio project I designed for myself, design using HTML/CSS with some Javascript, used bootstrap for css framework. Was a project to tie together my creative skills with my web design skills to market myself as a developer.",
           image: "/static/jhicks-design/Banner.jpg",
           images: [
             {src: "/static/jhicks-design/Banner.jpg"},
